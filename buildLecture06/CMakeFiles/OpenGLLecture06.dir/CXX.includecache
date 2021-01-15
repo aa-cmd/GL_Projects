@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ican/Desktop/OpenGL/Lecture06/include/KHR/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+/home/ican/Desktop/OpenGL/Lecture06/include/glad/glad.h
+KHR/khrplatform.h
+-
+
+/home/ican/Desktop/OpenGL/Lecture06/include/library.hpp
+
+/home/ican/Desktop/OpenGL/Lecture06/src/library.cpp
+library.hpp
+/home/ican/Desktop/OpenGL/Lecture06/src/library.hpp
+
+/home/ican/Desktop/OpenGL/Lecture06/src/main.cpp
+iostream
+-
+glad/glad.h
+-
+GLFW/glfw3.h
+-
+library.hpp
+/home/ican/Desktop/OpenGL/Lecture06/src/library.hpp
+

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ican/Desktop/OpenGL/Lecture03/include/library.hpp
+
+/home/ican/Desktop/OpenGL/Lecture03/src/main.cpp
+iostream
+-
+GLFW/glfw3.h
+-
+library.hpp
+/home/ican/Desktop/OpenGL/Lecture03/src/library.hpp
+
