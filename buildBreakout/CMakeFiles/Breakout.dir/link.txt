@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Breakout.dir/src/library.cpp.o CMakeFiles/Breakout.dir/src/main.cpp.o CMakeFiles/Breakout.dir/src/glad.c.o  -o Breakout  /usr/local/lib/libglfw3.a -lrt -lm -ldl -lX11 -lpthread 

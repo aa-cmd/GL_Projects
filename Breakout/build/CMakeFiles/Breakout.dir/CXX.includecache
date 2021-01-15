@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/library.hpp
+
+/home/ican/Desktop/OpenGL/Breakout/src/library.cpp
+library.hpp
+/home/ican/Desktop/OpenGL/Breakout/src/library.hpp
+
+/home/ican/Desktop/OpenGL/Breakout/src/main.cpp
+iostream
+-
+library.hpp
+/home/ican/Desktop/OpenGL/Breakout/src/library.hpp
+
