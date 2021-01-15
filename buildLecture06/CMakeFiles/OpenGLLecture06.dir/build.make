@@ -57,22 +57,9 @@ include CMakeFiles/OpenGLLecture06.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OpenGLLecture06.dir/flags.make
 
-CMakeFiles/OpenGLLecture06.dir/src/library.cpp.o: CMakeFiles/OpenGLLecture06.dir/flags.make
-CMakeFiles/OpenGLLecture06.dir/src/library.cpp.o: /home/ican/Desktop/OpenGL/Lecture06/src/library.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ican/Desktop/OpenGL/buildLecture06/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGLLecture06.dir/src/library.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLecture06.dir/src/library.cpp.o -c /home/ican/Desktop/OpenGL/Lecture06/src/library.cpp
-
-CMakeFiles/OpenGLLecture06.dir/src/library.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLecture06.dir/src/library.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ican/Desktop/OpenGL/Lecture06/src/library.cpp > CMakeFiles/OpenGLLecture06.dir/src/library.cpp.i
-
-CMakeFiles/OpenGLLecture06.dir/src/library.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLecture06.dir/src/library.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ican/Desktop/OpenGL/Lecture06/src/library.cpp -o CMakeFiles/OpenGLLecture06.dir/src/library.cpp.s
-
 CMakeFiles/OpenGLLecture06.dir/src/main.cpp.o: CMakeFiles/OpenGLLecture06.dir/flags.make
 CMakeFiles/OpenGLLecture06.dir/src/main.cpp.o: /home/ican/Desktop/OpenGL/Lecture06/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ican/Desktop/OpenGL/buildLecture06/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenGLLecture06.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ican/Desktop/OpenGL/buildLecture06/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGLLecture06.dir/src/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLecture06.dir/src/main.cpp.o -c /home/ican/Desktop/OpenGL/Lecture06/src/main.cpp
 
 CMakeFiles/OpenGLLecture06.dir/src/main.cpp.i: cmake_force
@@ -82,6 +69,19 @@ CMakeFiles/OpenGLLecture06.dir/src/main.cpp.i: cmake_force
 CMakeFiles/OpenGLLecture06.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLecture06.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ican/Desktop/OpenGL/Lecture06/src/main.cpp -o CMakeFiles/OpenGLLecture06.dir/src/main.cpp.s
+
+CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.o: CMakeFiles/OpenGLLecture06.dir/flags.make
+CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.o: /home/ican/Desktop/OpenGL/Lecture06/src/shaderprogram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ican/Desktop/OpenGL/buildLecture06/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.o -c /home/ican/Desktop/OpenGL/Lecture06/src/shaderprogram.cpp
+
+CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ican/Desktop/OpenGL/Lecture06/src/shaderprogram.cpp > CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.i
+
+CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ican/Desktop/OpenGL/Lecture06/src/shaderprogram.cpp -o CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.s
 
 CMakeFiles/OpenGLLecture06.dir/src/glad.c.o: CMakeFiles/OpenGLLecture06.dir/flags.make
 CMakeFiles/OpenGLLecture06.dir/src/glad.c.o: /home/ican/Desktop/OpenGL/Lecture06/src/glad.c
@@ -98,15 +98,15 @@ CMakeFiles/OpenGLLecture06.dir/src/glad.c.s: cmake_force
 
 # Object files for target OpenGLLecture06
 OpenGLLecture06_OBJECTS = \
-"CMakeFiles/OpenGLLecture06.dir/src/library.cpp.o" \
 "CMakeFiles/OpenGLLecture06.dir/src/main.cpp.o" \
+"CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.o" \
 "CMakeFiles/OpenGLLecture06.dir/src/glad.c.o"
 
 # External object files for target OpenGLLecture06
 OpenGLLecture06_EXTERNAL_OBJECTS =
 
-OpenGLLecture06: CMakeFiles/OpenGLLecture06.dir/src/library.cpp.o
 OpenGLLecture06: CMakeFiles/OpenGLLecture06.dir/src/main.cpp.o
+OpenGLLecture06: CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.o
 OpenGLLecture06: CMakeFiles/OpenGLLecture06.dir/src/glad.c.o
 OpenGLLecture06: CMakeFiles/OpenGLLecture06.dir/build.make
 OpenGLLecture06: /usr/local/lib/libglfw3.a

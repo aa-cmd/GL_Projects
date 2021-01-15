@@ -5,11 +5,13 @@ CMakeFiles/OpenGLLecture06.dir/src/glad.c.o: /home/ican/Desktop/OpenGL/Lecture06
 CMakeFiles/OpenGLLecture06.dir/src/glad.c.o: /home/ican/Desktop/OpenGL/Lecture06/include/glad/glad.h
 CMakeFiles/OpenGLLecture06.dir/src/glad.c.o: /home/ican/Desktop/OpenGL/Lecture06/src/glad.c
 
-CMakeFiles/OpenGLLecture06.dir/src/library.cpp.o: /home/ican/Desktop/OpenGL/Lecture06/include/library.hpp
-CMakeFiles/OpenGLLecture06.dir/src/library.cpp.o: /home/ican/Desktop/OpenGL/Lecture06/src/library.cpp
-
 CMakeFiles/OpenGLLecture06.dir/src/main.cpp.o: /home/ican/Desktop/OpenGL/Lecture06/include/KHR/khrplatform.h
 CMakeFiles/OpenGLLecture06.dir/src/main.cpp.o: /home/ican/Desktop/OpenGL/Lecture06/include/glad/glad.h
-CMakeFiles/OpenGLLecture06.dir/src/main.cpp.o: /home/ican/Desktop/OpenGL/Lecture06/include/library.hpp
+CMakeFiles/OpenGLLecture06.dir/src/main.cpp.o: /home/ican/Desktop/OpenGL/Lecture06/include/shaderprogram.hpp
 CMakeFiles/OpenGLLecture06.dir/src/main.cpp.o: /home/ican/Desktop/OpenGL/Lecture06/src/main.cpp
+
+CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.o: /home/ican/Desktop/OpenGL/Lecture06/include/KHR/khrplatform.h
+CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.o: /home/ican/Desktop/OpenGL/Lecture06/include/glad/glad.h
+CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.o: /home/ican/Desktop/OpenGL/Lecture06/include/shaderprogram.hpp
+CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.o: /home/ican/Desktop/OpenGL/Lecture06/src/shaderprogram.cpp
 

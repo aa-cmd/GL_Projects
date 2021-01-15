@@ -150,33 +150,6 @@ src/glad.c.s:
 	$(MAKE) -f CMakeFiles/OpenGLLecture06.dir/build.make CMakeFiles/OpenGLLecture06.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
-src/library.o: src/library.cpp.o
-
-.PHONY : src/library.o
-
-# target to build an object file
-src/library.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLLecture06.dir/build.make CMakeFiles/OpenGLLecture06.dir/src/library.cpp.o
-.PHONY : src/library.cpp.o
-
-src/library.i: src/library.cpp.i
-
-.PHONY : src/library.i
-
-# target to preprocess a source file
-src/library.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLLecture06.dir/build.make CMakeFiles/OpenGLLecture06.dir/src/library.cpp.i
-.PHONY : src/library.cpp.i
-
-src/library.s: src/library.cpp.s
-
-.PHONY : src/library.s
-
-# target to generate assembly for a file
-src/library.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLLecture06.dir/build.make CMakeFiles/OpenGLLecture06.dir/src/library.cpp.s
-.PHONY : src/library.cpp.s
-
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -204,6 +177,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGLLecture06.dir/build.make CMakeFiles/OpenGLLecture06.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/shaderprogram.o: src/shaderprogram.cpp.o
+
+.PHONY : src/shaderprogram.o
+
+# target to build an object file
+src/shaderprogram.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGLLecture06.dir/build.make CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.o
+.PHONY : src/shaderprogram.cpp.o
+
+src/shaderprogram.i: src/shaderprogram.cpp.i
+
+.PHONY : src/shaderprogram.i
+
+# target to preprocess a source file
+src/shaderprogram.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGLLecture06.dir/build.make CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.i
+.PHONY : src/shaderprogram.cpp.i
+
+src/shaderprogram.s: src/shaderprogram.cpp.s
+
+.PHONY : src/shaderprogram.s
+
+# target to generate assembly for a file
+src/shaderprogram.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGLLecture06.dir/build.make CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.s
+.PHONY : src/shaderprogram.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +216,12 @@ help:
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
-	@echo "... src/library.o"
-	@echo "... src/library.i"
-	@echo "... src/library.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/shaderprogram.o"
+	@echo "... src/shaderprogram.i"
+	@echo "... src/shaderprogram.s"
 .PHONY : help
 
 

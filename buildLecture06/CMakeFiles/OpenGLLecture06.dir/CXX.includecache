@@ -18,11 +18,9 @@ stdint.h
 KHR/khrplatform.h
 -
 
-/home/ican/Desktop/OpenGL/Lecture06/include/library.hpp
-
-/home/ican/Desktop/OpenGL/Lecture06/src/library.cpp
-library.hpp
-/home/ican/Desktop/OpenGL/Lecture06/src/library.hpp
+/home/ican/Desktop/OpenGL/Lecture06/include/shaderprogram.hpp
+string
+-
 
 /home/ican/Desktop/OpenGL/Lecture06/src/main.cpp
 iostream
@@ -31,6 +29,6 @@ glad/glad.h
 -
 GLFW/glfw3.h
 -
-library.hpp
-/home/ican/Desktop/OpenGL/Lecture06/src/library.hpp
+shaderprogram.hpp
+/home/ican/Desktop/OpenGL/Lecture06/src/shaderprogram.hpp
 

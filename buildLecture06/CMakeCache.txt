@@ -218,6 +218,9 @@ OpenGLLecture06_SOURCE_DIR:STATIC=/home/ican/Desktop/OpenGL/Lecture06
 //The directory containing a CMake configuration file for glfw3.
 glfw3_DIR:PATH=/usr/local/lib/cmake/glfw3
 
+//The directory containing a CMake configuration file for glm.
+glm_DIR:PATH=/usr/lib/cmake/glm
+
 
 ########################
 # INTERNAL cache entries
@@ -366,4 +369,6 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: glm_DIR
+glm_DIR-ADVANCED:INTERNAL=1
 

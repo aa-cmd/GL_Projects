@@ -4,13 +4,13 @@ project(OpenGLLecture06)
 
 set(PROJECT_DIR ${CMAKE_SOURCE_DIR})
 
-set(PROJECT_INCLUDE_DIR ${CMAKE_SOURCE_DIR}/include())
+set(PROJECT_INCLUDE_DIR ${PROJECT_DIR}/include())
 
 set(PROJECT_SOURCE_DIR ${PROJECT_DIR}/src)
 
 set( PROJECT_SOURCES
-                ${PROJECT_SOURCE_DIR}/library.cpp
                 ${PROJECT_SOURCE_DIR}/main.cpp
+                ${PROJECT_SOURCE_DIR}/shaderprogram.cpp
                 ${PROJECT_SOURCE_DIR}/glad.c
                 )
 

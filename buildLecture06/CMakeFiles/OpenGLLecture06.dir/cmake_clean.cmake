@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/OpenGLLecture06.dir/src/glad.c.o"
-  "CMakeFiles/OpenGLLecture06.dir/src/library.cpp.o"
   "CMakeFiles/OpenGLLecture06.dir/src/main.cpp.o"
+  "CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.o"
   "OpenGLLecture06"
   "OpenGLLecture06.pdb"
 )

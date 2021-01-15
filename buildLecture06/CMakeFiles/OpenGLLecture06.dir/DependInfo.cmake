@@ -16,8 +16,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/ican/Desktop/OpenGL/Lecture06/)"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ican/Desktop/OpenGL/Lecture06/src/library.cpp" "/home/ican/Desktop/OpenGL/buildLecture06/CMakeFiles/OpenGLLecture06.dir/src/library.cpp.o"
   "/home/ican/Desktop/OpenGL/Lecture06/src/main.cpp" "/home/ican/Desktop/OpenGL/buildLecture06/CMakeFiles/OpenGLLecture06.dir/src/main.cpp.o"
+  "/home/ican/Desktop/OpenGL/Lecture06/src/shaderprogram.cpp" "/home/ican/Desktop/OpenGL/buildLecture06/CMakeFiles/OpenGLLecture06.dir/src/shaderprogram.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
