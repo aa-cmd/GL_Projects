@@ -6,3 +6,23 @@
 
 #IncludeRegexTransform: 
 
+/home/ican/Desktop/OpenGL/Breakout/include/KHR/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+/home/ican/Desktop/OpenGL/Breakout/include/glad/glad.h
+KHR/khrplatform.h
+-
+
+/home/ican/Desktop/OpenGL/Breakout/src/main.cpp
+iostream
+-
+glad/glad.h
+-
+GLFW/glfw3.h
+-
+
