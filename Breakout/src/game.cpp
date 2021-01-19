@@ -40,5 +40,6 @@ void Game::ProcessInput(float dt)
 }
 void Game::Render()
 {
-    
+    Renderer->DrawSprite(ResourceManager::GetTexture("face"), glm::vec2(200.0f, 200.0f), 
+    glm::vec2(300.0f, 400.0f), 45.0f, glm::vec3(0.0f, 1.0f, 0.0f));
 }
