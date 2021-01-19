@@ -4,14 +4,22 @@ project(Breakout)
 
 set(PROJECT_DIR ${CMAKE_SOURCE_DIR})
 
-set(PROJECT_INCLUDE_DIR ${PROJECT_DIR}/include)
+set(PROJECT_INCLUDE_DIR 
+                    ${PROJECT_DIR}/include
+                    ${PROJECT_DIR}/shaders
+                    ${PROJECT_DIR}/textures)
 
 set(PROJECT_SOURCE_DIR ${PROJECT_DIR}/src)
 
 set( PROJECT_SOURCES
                 ${PROJECT_SOURCE_DIR}/library.cpp
                 ${PROJECT_SOURCE_DIR}/main.cpp
-                ${PROJECT_SOURCE_DIR}/glad.c)
+                ${PROJECT_SOURCE_DIR}/glad.c
+                ${PROJECT_SOURCE_DIR}/game.cpp
+                ${PROJECT_SOURCE_DIR}/resource_manager.cpp
+                ${PROJECT_SOURCE_DIR}/shader.cpp
+                ${PROJECT_SOURCE_DIR}/sprite_renderer.cpp
+                ${PROJECT_SOURCE_DIR}/texture.cpp)
 
 set( PEOJECT_HEADERS
                 ${PROJECT_INCLUDE_DIR}/library.hpp)

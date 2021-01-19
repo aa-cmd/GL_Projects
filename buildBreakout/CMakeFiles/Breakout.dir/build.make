@@ -96,11 +96,81 @@ CMakeFiles/Breakout.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Breakout.dir/src/glad.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ican/Desktop/OpenGL/Breakout/src/glad.c -o CMakeFiles/Breakout.dir/src/glad.c.s
 
+CMakeFiles/Breakout.dir/src/game.cpp.o: CMakeFiles/Breakout.dir/flags.make
+CMakeFiles/Breakout.dir/src/game.cpp.o: /home/ican/Desktop/OpenGL/Breakout/src/game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ican/Desktop/OpenGL/buildBreakout/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Breakout.dir/src/game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Breakout.dir/src/game.cpp.o -c /home/ican/Desktop/OpenGL/Breakout/src/game.cpp
+
+CMakeFiles/Breakout.dir/src/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Breakout.dir/src/game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ican/Desktop/OpenGL/Breakout/src/game.cpp > CMakeFiles/Breakout.dir/src/game.cpp.i
+
+CMakeFiles/Breakout.dir/src/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Breakout.dir/src/game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ican/Desktop/OpenGL/Breakout/src/game.cpp -o CMakeFiles/Breakout.dir/src/game.cpp.s
+
+CMakeFiles/Breakout.dir/src/resource_manager.cpp.o: CMakeFiles/Breakout.dir/flags.make
+CMakeFiles/Breakout.dir/src/resource_manager.cpp.o: /home/ican/Desktop/OpenGL/Breakout/src/resource_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ican/Desktop/OpenGL/buildBreakout/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Breakout.dir/src/resource_manager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Breakout.dir/src/resource_manager.cpp.o -c /home/ican/Desktop/OpenGL/Breakout/src/resource_manager.cpp
+
+CMakeFiles/Breakout.dir/src/resource_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Breakout.dir/src/resource_manager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ican/Desktop/OpenGL/Breakout/src/resource_manager.cpp > CMakeFiles/Breakout.dir/src/resource_manager.cpp.i
+
+CMakeFiles/Breakout.dir/src/resource_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Breakout.dir/src/resource_manager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ican/Desktop/OpenGL/Breakout/src/resource_manager.cpp -o CMakeFiles/Breakout.dir/src/resource_manager.cpp.s
+
+CMakeFiles/Breakout.dir/src/shader.cpp.o: CMakeFiles/Breakout.dir/flags.make
+CMakeFiles/Breakout.dir/src/shader.cpp.o: /home/ican/Desktop/OpenGL/Breakout/src/shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ican/Desktop/OpenGL/buildBreakout/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Breakout.dir/src/shader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Breakout.dir/src/shader.cpp.o -c /home/ican/Desktop/OpenGL/Breakout/src/shader.cpp
+
+CMakeFiles/Breakout.dir/src/shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Breakout.dir/src/shader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ican/Desktop/OpenGL/Breakout/src/shader.cpp > CMakeFiles/Breakout.dir/src/shader.cpp.i
+
+CMakeFiles/Breakout.dir/src/shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Breakout.dir/src/shader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ican/Desktop/OpenGL/Breakout/src/shader.cpp -o CMakeFiles/Breakout.dir/src/shader.cpp.s
+
+CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.o: CMakeFiles/Breakout.dir/flags.make
+CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.o: /home/ican/Desktop/OpenGL/Breakout/src/sprite_renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ican/Desktop/OpenGL/buildBreakout/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.o -c /home/ican/Desktop/OpenGL/Breakout/src/sprite_renderer.cpp
+
+CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ican/Desktop/OpenGL/Breakout/src/sprite_renderer.cpp > CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.i
+
+CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ican/Desktop/OpenGL/Breakout/src/sprite_renderer.cpp -o CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.s
+
+CMakeFiles/Breakout.dir/src/texture.cpp.o: CMakeFiles/Breakout.dir/flags.make
+CMakeFiles/Breakout.dir/src/texture.cpp.o: /home/ican/Desktop/OpenGL/Breakout/src/texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ican/Desktop/OpenGL/buildBreakout/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Breakout.dir/src/texture.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Breakout.dir/src/texture.cpp.o -c /home/ican/Desktop/OpenGL/Breakout/src/texture.cpp
+
+CMakeFiles/Breakout.dir/src/texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Breakout.dir/src/texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ican/Desktop/OpenGL/Breakout/src/texture.cpp > CMakeFiles/Breakout.dir/src/texture.cpp.i
+
+CMakeFiles/Breakout.dir/src/texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Breakout.dir/src/texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ican/Desktop/OpenGL/Breakout/src/texture.cpp -o CMakeFiles/Breakout.dir/src/texture.cpp.s
+
 # Object files for target Breakout
 Breakout_OBJECTS = \
 "CMakeFiles/Breakout.dir/src/library.cpp.o" \
 "CMakeFiles/Breakout.dir/src/main.cpp.o" \
-"CMakeFiles/Breakout.dir/src/glad.c.o"
+"CMakeFiles/Breakout.dir/src/glad.c.o" \
+"CMakeFiles/Breakout.dir/src/game.cpp.o" \
+"CMakeFiles/Breakout.dir/src/resource_manager.cpp.o" \
+"CMakeFiles/Breakout.dir/src/shader.cpp.o" \
+"CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.o" \
+"CMakeFiles/Breakout.dir/src/texture.cpp.o"
 
 # External object files for target Breakout
 Breakout_EXTERNAL_OBJECTS =
@@ -108,13 +178,18 @@ Breakout_EXTERNAL_OBJECTS =
 Breakout: CMakeFiles/Breakout.dir/src/library.cpp.o
 Breakout: CMakeFiles/Breakout.dir/src/main.cpp.o
 Breakout: CMakeFiles/Breakout.dir/src/glad.c.o
+Breakout: CMakeFiles/Breakout.dir/src/game.cpp.o
+Breakout: CMakeFiles/Breakout.dir/src/resource_manager.cpp.o
+Breakout: CMakeFiles/Breakout.dir/src/shader.cpp.o
+Breakout: CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.o
+Breakout: CMakeFiles/Breakout.dir/src/texture.cpp.o
 Breakout: CMakeFiles/Breakout.dir/build.make
 Breakout: /usr/local/lib/libglfw3.a
 Breakout: /usr/lib/x86_64-linux-gnu/librt.so
 Breakout: /usr/lib/x86_64-linux-gnu/libm.so
 Breakout: /usr/lib/x86_64-linux-gnu/libX11.so
 Breakout: CMakeFiles/Breakout.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ican/Desktop/OpenGL/buildBreakout/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Breakout"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ican/Desktop/OpenGL/buildBreakout/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Breakout"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Breakout.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

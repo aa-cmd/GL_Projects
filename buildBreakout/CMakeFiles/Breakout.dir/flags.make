@@ -7,11 +7,11 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/ican/Desktop/OpenGL/Breakout/include 
+C_INCLUDES = -I/home/ican/Desktop/OpenGL/Breakout/include -I/home/ican/Desktop/OpenGL/Breakout/shaders -I/home/ican/Desktop/OpenGL/Breakout/textures 
 
 CXX_FLAGS =  
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ican/Desktop/OpenGL/Breakout/include 
+CXX_INCLUDES = -I/home/ican/Desktop/OpenGL/Breakout/include -I/home/ican/Desktop/OpenGL/Breakout/shaders -I/home/ican/Desktop/OpenGL/Breakout/textures 
 

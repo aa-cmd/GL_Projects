@@ -5,10 +5,44 @@ CMakeFiles/Breakout.dir/src/glad.c.o: /home/ican/Desktop/OpenGL/Breakout/include
 CMakeFiles/Breakout.dir/src/glad.c.o: /home/ican/Desktop/OpenGL/Breakout/include/glad/glad.h
 CMakeFiles/Breakout.dir/src/glad.c.o: /home/ican/Desktop/OpenGL/Breakout/src/glad.c
 
+CMakeFiles/Breakout.dir/src/game.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/KHR/khrplatform.h
+CMakeFiles/Breakout.dir/src/game.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/game.h
+CMakeFiles/Breakout.dir/src/game.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/glad/glad.h
+CMakeFiles/Breakout.dir/src/game.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/resource_manager.h
+CMakeFiles/Breakout.dir/src/game.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/shader.h
+CMakeFiles/Breakout.dir/src/game.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/sprite_renderer.h
+CMakeFiles/Breakout.dir/src/game.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/texture.h
+CMakeFiles/Breakout.dir/src/game.cpp.o: /home/ican/Desktop/OpenGL/Breakout/src/game.cpp
+
 CMakeFiles/Breakout.dir/src/library.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/library.hpp
 CMakeFiles/Breakout.dir/src/library.cpp.o: /home/ican/Desktop/OpenGL/Breakout/src/library.cpp
 
 CMakeFiles/Breakout.dir/src/main.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/KHR/khrplatform.h
 CMakeFiles/Breakout.dir/src/main.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/glad/glad.h
 CMakeFiles/Breakout.dir/src/main.cpp.o: /home/ican/Desktop/OpenGL/Breakout/src/main.cpp
+
+CMakeFiles/Breakout.dir/src/resource_manager.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/KHR/khrplatform.h
+CMakeFiles/Breakout.dir/src/resource_manager.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/glad/glad.h
+CMakeFiles/Breakout.dir/src/resource_manager.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/resource_manager.h
+CMakeFiles/Breakout.dir/src/resource_manager.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/shader.h
+CMakeFiles/Breakout.dir/src/resource_manager.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/stb_image.h
+CMakeFiles/Breakout.dir/src/resource_manager.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/texture.h
+CMakeFiles/Breakout.dir/src/resource_manager.cpp.o: /home/ican/Desktop/OpenGL/Breakout/src/resource_manager.cpp
+
+CMakeFiles/Breakout.dir/src/shader.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/KHR/khrplatform.h
+CMakeFiles/Breakout.dir/src/shader.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/glad/glad.h
+CMakeFiles/Breakout.dir/src/shader.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/shader.h
+CMakeFiles/Breakout.dir/src/shader.cpp.o: /home/ican/Desktop/OpenGL/Breakout/src/shader.cpp
+
+CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/KHR/khrplatform.h
+CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/glad/glad.h
+CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/shader.h
+CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/sprite_renderer.h
+CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/texture.h
+CMakeFiles/Breakout.dir/src/sprite_renderer.cpp.o: /home/ican/Desktop/OpenGL/Breakout/src/sprite_renderer.cpp
+
+CMakeFiles/Breakout.dir/src/texture.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/KHR/khrplatform.h
+CMakeFiles/Breakout.dir/src/texture.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/glad/glad.h
+CMakeFiles/Breakout.dir/src/texture.cpp.o: /home/ican/Desktop/OpenGL/Breakout/include/texture.h
+CMakeFiles/Breakout.dir/src/texture.cpp.o: /home/ican/Desktop/OpenGL/Breakout/src/texture.cpp
 

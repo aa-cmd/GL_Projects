@@ -18,7 +18,7 @@ Game::~Game()
 void Game::Init()
 {
     //load shaders
-    ResourceManager::LoadShader("./shaders/sprite.vs", "./shaders/sprite.frag", nullptr, "sprite");
+    ResourceManager::LoadShader("shaders/sprite.vs", "shaders/sprite.frag", nullptr, "sprite");
     //configure shaders
     glm::mat4 projection = glm::ortho(0.0f, static_cast<float>(this->Width),
         static_cast<float>(this->Height), 0.0f, -1.0f, 1.0f);
@@ -26,7 +26,7 @@ void Game::Init()
     ResourceManager::GetShader("sprite").SetMatrix4("projection", projection);
     //set render-specific controls
     Renderer = new SpriteRenderer(ResourceManager::GetShader("sprite"));
-    ResourceManager::LoadTexture("./textures/awesomeface.png", true, "face");
+    ResourceManager::LoadTexture("textures/awesomeface.png", true, "face");
 
 
 }
