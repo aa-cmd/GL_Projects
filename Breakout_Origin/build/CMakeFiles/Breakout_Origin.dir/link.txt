@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Breakout_Origin.dir/src/main.cpp.o  -o Breakout_Origin  /usr/local/lib/libglfw3.a -lrt -lm -ldl -lX11 -lpthread 

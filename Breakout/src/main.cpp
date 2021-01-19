@@ -14,7 +14,6 @@ const unsigned int SCREEN_HEIGHT = 600;
 
 
 
-
 int main(int argc, char** argv)
 {
     if(!glfwInit())

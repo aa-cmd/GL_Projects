@@ -1,0 +1,3 @@
+/home/ican/Desktop/OpenGL/buildBreakoutOrigin/CMakeFiles/rebuild_cache.dir
+/home/ican/Desktop/OpenGL/buildBreakoutOrigin/CMakeFiles/edit_cache.dir
+/home/ican/Desktop/OpenGL/buildBreakoutOrigin/CMakeFiles/Breakout_Origin.dir
