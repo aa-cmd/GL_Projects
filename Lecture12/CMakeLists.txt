@@ -10,10 +10,13 @@ set(PROJECT_SOURCE_DIR ${PROJECT_DIR}/src)
 
 set(PROJECT_SOURCES 
             ${PROJECT_SOURCE_DIR}/main.cpp
+            ${PROJECT_SOURCE_DIR}/shaderprogram.cpp
             ${PROJECT_SOURCE_DIR}/glad.c
             )
 
-set(PROJECT_HEADERS)
+set(PROJECT_HEADERS
+            ${PROJECT_INCLUDE_DIR}/shaderprogram.hpp
+            )
 
 find_package(glfw3 3.3 REQUIRED)
 

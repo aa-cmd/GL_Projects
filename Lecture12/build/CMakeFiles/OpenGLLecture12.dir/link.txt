@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/OpenGLLecture12.dir/src/main.cpp.o CMakeFiles/OpenGLLecture12.dir/src/glad.c.o  -o OpenGLLecture12  /usr/local/lib/libglfw3.a -lrt -lm -ldl -lX11 -lpthread 
