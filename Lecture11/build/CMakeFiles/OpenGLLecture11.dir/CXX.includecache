@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ican/Desktop/OpenGL/Lecture11/include/KHR/khrplatform.h
+../include/KHR/khrplatform.h
 stdint.h
 -
 inttypes.h
@@ -14,15 +14,25 @@ inttypes.h
 stdint.h
 -
 
-/home/ican/Desktop/OpenGL/Lecture11/include/glad/glad.h
+../include/glad/glad.h
 KHR/khrplatform.h
 -
 
-/home/ican/Desktop/OpenGL/Lecture11/include/shaderprogram.hpp
+../include/shaderprogram.hpp
 string
 -
 map
 -
+
+/home/ican/Desktop/OpenGL/Lecture11/src/main.cpp
+iostream
+-
+glad/glad.h
+-
+GLFW/glfw3.h
+-
+shaderprogram.hpp
+/home/ican/Desktop/OpenGL/Lecture11/src/shaderprogram.hpp
 
 /home/ican/Desktop/OpenGL/Lecture11/src/shaderprogram.cpp
 shaderprogram.hpp

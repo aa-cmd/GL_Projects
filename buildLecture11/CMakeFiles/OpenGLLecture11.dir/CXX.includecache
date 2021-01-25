@@ -34,11 +34,3 @@ GLFW/glfw3.h
 shaderprogram.hpp
 /home/ican/Desktop/OpenGL/Lecture11/src/shaderprogram.hpp
 
-/home/ican/Desktop/OpenGL/Lecture11/src/shaderprogram.cpp
-shaderprogram.hpp
-/home/ican/Desktop/OpenGL/Lecture11/src/shaderprogram.hpp
-glad/glad.h
--
-fstream
--
-

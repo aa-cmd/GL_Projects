@@ -6,31 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/ican/Desktop/OpenGL/Lecture11/include/KHR/khrplatform.h
-stdint.h
--
-inttypes.h
--
-stdint.h
--
-
-/home/ican/Desktop/OpenGL/Lecture11/include/glad/glad.h
-KHR/khrplatform.h
--
-
-/home/ican/Desktop/OpenGL/Lecture11/src/glad.c
-stdio.h
--
-stdlib.h
--
-string.h
--
-glad/glad.h
--
-windows.h
--
-winapifamily.h
--
-dlfcn.h
--
-

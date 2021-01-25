@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-project(OpenGLLecture11)
+project(OpenGLLecture12)
 
 set(PROJECT_DIR ${CMAKE_SOURCE_DIR})
 
@@ -8,15 +8,12 @@ set(PROJECT_INCLUDE_DIR ${PROJECT_DIR}/include)
 
 set(PROJECT_SOURCE_DIR ${PROJECT_DIR}/src)
 
-set(PROJECT_SOURCES
+set(PROJECT_SOURCES 
             ${PROJECT_SOURCE_DIR}/main.cpp
-            ${PROJECT_SOURCE_DIR}/shaderprogram.cpp
             ${PROJECT_SOURCE_DIR}/glad.c
             )
 
-set(PROJECT_HEADERS
-            ${PROJECT_INCLUDE_DIR}/shaderprogram.hpp
-            )
+set(PROJECT_HEADERS)
 
 find_package(glfw3 3.3 REQUIRED)
 

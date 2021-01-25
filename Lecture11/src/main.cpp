@@ -17,6 +17,23 @@ float vertices[] = {
 
 unsigned int VAO, VBO;
 
+float vl = 0.0f;
+
+void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods)
+{
+    if(key == GLFW_KEY_ESCAPE)
+        glfwTerminate();
+
+    if(key == GLFW_KEY_LEFT)
+    {
+        vl -= 0.01;
+    }
+
+    if(key == GLFW_KEY_RIGHT)
+    {
+        vl += 0.01;
+    }
+}
 
 int main(int argc, char**  argv)
 {
@@ -39,6 +56,7 @@ int main(int argc, char**  argv)
         return -1;
     }
 
+    glfwSetKeyCallback(window, key_callback);
     glfwMakeContextCurrent(window);
 
     if(!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
@@ -53,6 +71,7 @@ int main(int argc, char**  argv)
     program.attachShader("./shaders/simplefs.glsl", GL_FRAGMENT_SHADER);
     program.link();
 
+    program.addUniform("uMoveX");
 
     glGenVertexArrays(1, &VAO);
 
@@ -74,6 +93,9 @@ int main(int argc, char**  argv)
         glClear(GL_COLOR_BUFFER_BIT);
 
         program.use();
+
+        program.setFloat("uMoveX", vl);
+    
 
         glBindVertexArray(VAO);
         glEnableVertexAttribArray(0);
