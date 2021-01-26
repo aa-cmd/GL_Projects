@@ -4,7 +4,7 @@
  #include <string>
  #include <map>
  #include <glm/vec3.hpp>
-
+ #include <glm/vec4.hpp>
 
  class ShaderProgram
  {
@@ -24,6 +24,7 @@ public:
 
     void setVec3(const std::string& varName, const glm::vec3& value);
 
+    void setVec4(const std::string& varName, const glm::vec4& value);
 private:
     std::string getShaderFromFile(const char* fileName);
 

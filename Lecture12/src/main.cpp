@@ -6,6 +6,9 @@
 
 float length = 0.08f;
 glm::vec3 position = glm::vec3(0.0f, 0.0f, 0.0f);
+glm::vec4 color1 =   glm::vec4(1.0f, 0.0f, 0.0f, 1.0f);
+glm::vec4 color2 =   glm::vec4(1.0f, 1.0f, 0.0f, 1.0f);
+glm::vec4 color3 =   glm::vec4(1.0f, 0.0f, 1.0f, 1.0f);
 
 float vertices[] = {
         -length/2,  length/2,   0.0f,
@@ -89,6 +92,7 @@ int main(int argc, char**  argv)
     program.link();
 
     program.addUniform("uMove");
+    program.addUniform("uColor");
 
     glGenVertexArrays(1, &VAO);
 
@@ -110,15 +114,24 @@ int main(int argc, char**  argv)
         glClear(GL_COLOR_BUFFER_BIT);
 
         program.use();
-
-        program.setVec3("uMove", position);
-    
-
+        
         glBindVertexArray(VAO);
         glEnableVertexAttribArray(0);
 
+        // 1. square
+        program.setVec3("uMove", position);
+        program.setVec4("uColor", color1);
         glDrawArrays(GL_TRIANGLES, 0, 6);
 
+        // 2. square
+        program.setVec3("uMove", position + glm::vec3(-length, 0.0f, 0.0f));
+        program.setVec4("uColor", color2);
+        glDrawArrays(GL_TRIANGLES, 0, 6);
+
+        // 3. square
+        program.setVec3("uMove", position + glm::vec3(-length, length, 0.0f));
+        program.setVec4("uColor", color3);
+        glDrawArrays(GL_TRIANGLES, 0, 6);
 
         glfwSwapBuffers(window);
 

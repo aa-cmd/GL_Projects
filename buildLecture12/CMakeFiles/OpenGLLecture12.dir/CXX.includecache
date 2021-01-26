@@ -25,6 +25,8 @@ map
 -
 glm/vec3.hpp
 -
+glm/vec4.hpp
+-
 
 /home/ican/Desktop/OpenGL/Lecture12/src/main.cpp
 iostream
@@ -35,4 +37,12 @@ GLFW/glfw3.h
 -
 shaderprogram.hpp
 /home/ican/Desktop/OpenGL/Lecture12/src/shaderprogram.hpp
+
+/home/ican/Desktop/OpenGL/Lecture12/src/shaderprogram.cpp
+shaderprogram.hpp
+/home/ican/Desktop/OpenGL/Lecture12/src/shaderprogram.hpp
+glad/glad.h
+-
+fstream
+-
 
