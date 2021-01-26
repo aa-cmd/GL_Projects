@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/OpenGLLecture13.dir/src/main.cpp.o CMakeFiles/OpenGLLecture13.dir/src/glad.c.o CMakeFiles/OpenGLLecture13.dir/src/shaderprogram.cpp.o CMakeFiles/OpenGLLecture13.dir/src/square.cpp.o  -o OpenGLLecture13  /usr/local/lib/libglfw3.a -lrt -lm -ldl -lX11 -lpthread 
