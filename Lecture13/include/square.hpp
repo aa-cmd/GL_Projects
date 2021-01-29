@@ -22,7 +22,7 @@ public:
     glm::vec3 getPosition();
     glm::vec4 getColor();
 
-    void setDirection();
+    void setDirection(DIRECTION dir);
     void move();
 private:
     glm::vec4 m_Color;

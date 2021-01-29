@@ -38,22 +38,22 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
     {
         if(key == GLFW_KEY_LEFT)
         {
-            position -= glm::vec3(length, 0.0f, 0.0f);
+            sql.setDirection(Square::DIR_LEFT);
         }
 
         if(key == GLFW_KEY_RIGHT)
         {
-            position += glm::vec3(length, 0.0f, 0.0f);
+            sql.setDirection(Square::DIR_RIGHT);
         }
 
         if(key == GLFW_KEY_UP)
         {
-            position += glm::vec3(0.0f, length, 0.0f);
+            sql.setDirection(Square::DIR_UP);
         }
 
         if(key == GLFW_KEY_DOWN)
         {
-            position -= glm::vec3(0.0f, length, 0.0f);
+            sql.setDirection(Square::DIR_DOWN);
         }  
     }
 

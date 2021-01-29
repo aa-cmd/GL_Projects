@@ -50,3 +50,9 @@ shaderprogram.hpp
 square.hpp
 /home/ican/Desktop/OpenGL/Lecture13/src/square.hpp
 
+/home/ican/Desktop/OpenGL/Lecture13/src/square.cpp
+square.hpp
+/home/ican/Desktop/OpenGL/Lecture13/src/square.hpp
+cstdlib
+-
+

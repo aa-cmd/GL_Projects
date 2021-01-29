@@ -22,6 +22,11 @@ glm::vec4 Square::getColor()
     return m_Color;
 }
 
+void Square::setDirection(Square::DIRECTION dir)
+{
+    m_Direction = dir;
+}
+
 void Square::move()
 {
     switch (m_Direction)
