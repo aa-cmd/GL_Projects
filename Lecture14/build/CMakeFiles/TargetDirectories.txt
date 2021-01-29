@@ -1,0 +1,3 @@
+/home/ican/Desktop/OpenGL/Lecture14/build/CMakeFiles/rebuild_cache.dir
+/home/ican/Desktop/OpenGL/Lecture14/build/CMakeFiles/edit_cache.dir
+/home/ican/Desktop/OpenGL/Lecture14/build/CMakeFiles/OpenGLLecture14.dir
